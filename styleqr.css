@@ -1,0 +1,34 @@
+
+*{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ebb0bf;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.menu ul{
+    position: absolute;
+    list-style: none;
+    right: 48%;
+    top: 90%;
+    border-style: groove;
+
+}
+.menu ul a{
+    color: black;
+    text-decoration: none;
+}
+.menu ul li{
+    text-align: center;
+    padding:1px 10px;
+    font-size: 20px;
+}
+.menu ul li i{
+    margin-right: 10px;
+    font-size: 15px;
+}
